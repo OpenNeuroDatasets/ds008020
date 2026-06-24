@@ -6,24 +6,6 @@ This dataset contains 7 Tesla human brain MRI data from 21 subjects acquired as 
 
 ------------------------------------------------Labeling Duration experiment--------------------------------------------
 
-Dataset Organization
-
-sub-XX/
-	anat/
-		sub-XX_UNIT1.nii
-	perf/
-		sub-XX_acq-LD500_asl.nii
-		sub-XX_acq-LD1000_asl.nii
-		sub-XX_acq-LD1500_asl.nii
-		sub-XX_acq-LD2000_asl.nii
-		sub-XX_acq-LD2500_asl.nii
-		sub-XX_acq-LD3000_asl.nii
-		sub-XX_acq-LD3500_asl.nii
-		sub-XX_acq-LD4000_asl.nii
-	derivatives/
-		perfusion/
-		segmentation/
-
 Each subject folder is organized as follows:
 
 Anatomical Data
@@ -79,27 +61,6 @@ These segmentation maps were generated using FSL FAST and transformed into the c
 
 
 ------------------------------------------------Mean Gradient experiment--------------------------------------------
-
-Dataset Organization
-
-sub-XX/
-	anat/
-		sub-XX_UNIT1.nii
-	perf/
-		sub-XX_acq-Gm08_asl.nii
-		sub-XX_acq-Gm06_asl.nii
-		sub-XX_acq-Gm04_asl.nii
-		sub-XX_acq-Gm02_asl.nii
-		sub-XX_acq-G0_asl.nii
-		sub-XX_acq-Gp02_asl.nii
-		sub-XX_acq-Gp04_asl.nii
-		sub-XX_acq-Gp06_asl.nii
-		sub-XX_acq-Gp08_asl.nii
-	derivatives/
-		atlas/
-		fmap/
-		perfusion/
-		segmentation/
 
 Each subject folder is organized as follows:
 
